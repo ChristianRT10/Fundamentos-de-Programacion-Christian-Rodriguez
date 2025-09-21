@@ -8,7 +8,7 @@ monto1 = float(input("Ingrese el monto de la primera compra: "))
 descuento1 = calcular_descuento(monto1)
 total1 = monto1 - descuento1
 
-print("\nCompra 1:")
+print("Compra 1:")
 print(f"Monto total: ${monto1}")
 print(f"Descuento aplicado: ${descuento1}")
 print(f"Monto final a pagar: ${total1}")
